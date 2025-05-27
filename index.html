@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CHIPS</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header, footer {
+      background-color: #004080;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .images {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+    .images img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .links {
+      margin-top: 2rem;
+    }
+
+ .links img {
+       width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .links h3 {
+      margin-top: 1.5rem;
+    }
+    .links ul {
+      list-style: none;
+      padding: 0;
+    }
+    .links li {
+      margin-bottom: 0.5rem;
+    }
+    .links a {
+      color: #004080;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  .contact {
+      margin-top: 2rem;
+      text-align: center;
+    }
+    .contact-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 1rem;
+    }
+    .contact-card {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      width: 220px;
+      text-align: center;
+    }
+    .contact-card img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 0.5rem;
+    }
+    .contact-card h4 {
+      margin: 0.5rem 0 0.2rem;
+    }
+    .contact-card a {
+      display: block;
+      color: #004080;
+      font-weight: bold;
+      text-decoration: none;
+      margin-top: 0.3rem;
+    }
+    @media (max-width: 600px) {
+      .images {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Collaboratory for Human-Centered Immersive Problem-Solving Spaces</h1>
+  </header>
+  <main>
+    <section class="images">
+      <img src="images/banner.png" alt="Project image 2" />
+      <p>Collaboratory for Human-Centered Immersive Problem-Solving Spaces (CHIPS), is a dedicated research group that explores the design, theory and practice of collaborative problem-solving activities in immersive spaces. The group is interested in how people make sense, how they make decisions, identify and solve problems, and how they understand each other's embodied actions within immersive collaborative learning spaces.</p>
+    </section>
+
+    <section class="links">
+      <h3>DOTEbase</h3>
+      <p>DOTEbase is designed to support qualitative analysis of large audio-visual data sets. It makes it easy to track, annotate, and search through all of your Projects and Transcripts created in DOTE, all in one flexible interface. DOTEbase extends the functionality of DOTE by allowing you to create 'clips' of your media recordings before you have even produced a transcript. These Media-Clips can be tagged and organized on a tiered timeline for each Project, or added to any of your existing clip collections.</p>
+      <img src="images/db.png" alt="Project image 2" />
+      <ul>
+        <li>Learn more and try it out:  <a href="https://dote.aau.dk" target="_blank">dote.aau.dk</a></li>
+        <li><a href="#">[Link to Related Publication]</a></li>
+      </ul>
+
+      <h3>CAVA360VR</h3>
+      <p>CAVA360VR2 is a free, open-source multi-user Virtual Reality (VR) tool designed for collaborative learning, immersive analysis, and training. Developed by BigSoftVideo at Aalborg University, CAVA360VR2 enables users to explore, annotate, and discuss synchronized 360-degree videos in real-time. The tool supports both VR and desktop modes, making it accessible for users with or without headsets. Key features include timeline navigation, a shared drawing tool, transcript integration, multiple video portals, and real-time collaborative playback. CAVA360VR2 is ideal for applications in education, qualitative research, and cross-institutional collaboration, offering a democratic model where all users have equal access to tools. During the workshop, we will demonstrate CAVA360VR2 in action and discuss its potential uses for teaching, research, and analysis. This session aims to foster dialogue, gather feedback, and explore partnerships for future development. Participants are encouraged to try the tool and share their insights.
+        <img src="images/KA_2.png" alt="Project image 2" />
+      </p>
+      <ul>
+        <li>Learn more and try it out:  <a href="https://github.com/BigSoftVideo/CAVA360VR2.0" target="_blank">GitHub</a></li>
+        <li><a href="#">[Link to CAVA360VR Paper]</a></li>
+      </ul>
+
+      <h3>Other Work</h3>
+      <ul>
+        <li><a href="#">[Link to Miscellaneous Project]</a></li>
+        <li><a href="#">[Link to Social Media]</a></li>
+      </ul>
+    </section>
+
+    <section class="contact">
+      <h2>Contact Us</h2>
+      <div class="contact-container">
+        <div class="contact-card">
+          <img src="images/jd.jpg" alt="Person 1" />
+          <h4>Jacob Davidsen</h4>
+          <p>Associate Professor</p>
+          <a href="mailto:person1@email.com">Email</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">Website</a>
+        </div>
+        <div class="contact-card">
+          <img src="images/lp.jpg" alt="Person 2" />
+          <h4>Lucas Paulsen</h4>
+          <p>PhD Fellow</p>
+          <a href="mailto:person2@email.com">Email</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">Website</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Collaboratory for Human-Centered Immersive Problem-Solving Spaces</p>
+  </footer>
+</body>
+</html>
